@@ -90,11 +90,13 @@ README.md                       this file
 ## Study selection results
 
 | Stage | Count |
-|---|---|
+|---|---:|
 | Articles initially screened across all venues | 14,832 |
 | Full-text reviewed | 1,306 |
 | Included via automated search (AS) | 47 |
 | Included via snowball search (SB) | 4 |
+| &nbsp;&nbsp;— backward snowball | 2 |
+| &nbsp;&nbsp;— forward snowball | 2 |
 | **Total primary studies** | **51** |
 
 The full list of 51 primary studies, with citation details and DOI/link, is in `primary-studies.csv`.
