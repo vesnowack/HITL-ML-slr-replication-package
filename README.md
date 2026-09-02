@@ -1,4 +1,4 @@
-# Replication package: Understanding the ``Human'' in the Loop - A Systematic Literature Review in Software Engineering
+# Replication package: Understanding the "Human" in the Loop - A Systematic Literature Review in Software Engineering
 
 This package contains the data, search results, screening decisions, quality assessments, and extracted data supporting the paper *[paper title]*. It allows a reader to inspect and reproduce the study selection process and the results reported for each research question.
 
