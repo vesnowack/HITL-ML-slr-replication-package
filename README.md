@@ -27,20 +27,20 @@ for each research question.
                                inclusion decision, and RQ1-RQ4 coding)
 
 /data-extraction/
-    rq1-roles.xlsx
-    rq2-interactions.xlsx
-    rq3-quality-attributes.xlsx
-    rq4-evaluation-metrics.xlsx
+    rq1-roles.csv
+    rq2-interactions.csv
+    rq3-quality-attributes.csv
+    rq4-evaluation-metrics.csv
 
 /figures/
-    venue-table-source.xlsx         source data for the venue table in the paper
+    venue-table-source.csv          source data for the venue table in the paper
     article_numbers.png, article_distribution.png, sankey_rq_combinations.png   the exact figure files as shown in the paper
 
 /scripts/
     generate-figures.py             regenerates ../figures/article_numbers.png, ../figures/article_distribution.png
     generate-sankey.py              regenerates ../figures/sankey_rq_combinations_reproduction.png
 
-/primary-studies.xlsx           full list of the 50 included studies
+/primary-studies.csv            full list of the 50 included studies
                                  (citation key, title, authors, year, venue, link, source: automated search(AS)/snowballing(SB))
 
 README.md                       this file
@@ -80,7 +80,7 @@ crowd-, collabor-, teach-, feedback, iterat-, guid-
 
 **Venues searched.** 11 top-tier Software Engineering venues (5 conferences, 3
 symposia, 3 journals), ranked A*/A in CORE or Q1 in Scimago. Full list and
-per-venue counts are in `search-results/` and `figures/venue-table-source.xlsx`.
+per-venue counts are in `search-results/` and `figures/venue-table-source.csv`.
 
 ### Inclusion criteria
 
@@ -117,7 +117,7 @@ per-venue counts are in `search-results/` and `figures/venue-table-source.xlsx`.
 | **Total primary studies** | **50** |
 
 The full list of 50 primary studies, with citation details and link, is in
-`primary-studies.xlsx`.
+`primary-studies.csv`.
 
 ## Quality assessment
 
@@ -141,10 +141,10 @@ achieved a high overall score, so none were excluded at this stage.
 
 Extraction was organised per RQ:
 
-- `rq1-roles.xlsx` -- human role classification per study
-- `rq2-interactions.xlsx` -- human-agent interaction types per study
-- `rq3-quality-attributes.xlsx` -- software quality attributes discussed per study
-- `rq4-evaluation-metrics.xlsx` -- evaluation metrics used per study
+- `rq1-roles.csv` -- human role classification per study
+- `rq2-interactions.csv` -- human-agent interaction types per study
+- `rq3-quality-attributes.csv` -- software quality attributes discussed per study
+- `rq4-evaluation-metrics.csv` -- evaluation metrics used per study
 
 ## Reproducing figures and tables
 
@@ -154,6 +154,6 @@ python3 generate-figures.py             # ../figures/article_numbers.png, ../fig
 python3 generate-sankey.py              # ../figures/sankey_rq_combinations_reproduction.png/.html (reproduction -- see note above)
 ```
 
-Requires Python 3.x with `pandas`, `openpyxl`, `matplotlib`, `plotly`
+Requires Python 3.x with `pandas`, `numpy`, `matplotlib`, `seaborn`, `plotly`
 (and, for static Sankey PNG export, a working `kaleido` install --
 `pip install 'plotly[kaleido]'`; the HTML output does not need it).
