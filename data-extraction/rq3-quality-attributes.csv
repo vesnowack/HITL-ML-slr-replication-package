@@ -23,7 +23,7 @@ Knauss2016ACon,ACon: A learning-based approach to deal with uncertainty in conte
 Li2022Actionable,Actionable and Interpretable Fault Localization for Recurring Failures in Online Service Systems,"effectiveness, efficiency"
 Li2023Preference,Preference Adaptation: user satisfaction is all you need!,effectiveness
 Liu2021CloneDetection,Can Neural Clone Detection Generalize to Unseen Functionalities,efficiency
-Liu2023Incident,Incident-aware duplicate ticket aggregation for cloud systems,effectiveness;efficiency
+Liu2023Incident,Incident-aware duplicate ticket aggregation for cloud systems,"effectiveness, efficiency"
 Liu2023Valar,VALAR: Streamlining Alarm Ranking in Static Analysis with Value-Flow Assisted Active Learning,"robustness, efficiency, effectiveness"
 Liu2024hmCodeTrans,hmCodeTrans: Human–Machine Interactive Code Translation,efficiency
 Lloyd2017,Improving Human-in-the-Loop Adaptive Systems Using Brain-Computer Interaction,"effectiveness, adaptability"

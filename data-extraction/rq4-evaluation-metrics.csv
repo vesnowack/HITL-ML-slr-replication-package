@@ -27,7 +27,7 @@ Liu2023Incident,Incident-aware duplicate ticket aggregation for cloud systems,"p
 Liu2023Valar,VALAR: Streamlining Alarm Ranking in Static Analysis with Value-Flow Assisted Active Learning,"ROC/AUC, number of interaction"
 Liu2024hmCodeTrans,hmCodeTrans: Human–Machine Interactive Code Translation,task success rate
 Lloyd2017,Improving Human-in-the-Loop Adaptive Systems Using Brain-Computer Interaction,
-Mangal2015AUser,A user-guided approach to program analysis,precision&recall; task success rate
+Mangal2015AUser,A user-guided approach to program analysis,"precision&recall, task success rate"
 Murukannaiah2015,Platys: An Active Learning Framework for Place-Aware Application Development and Its Evaluation,f-measure
 Paterson2019,Using Unstructured Data to Improve the Continuous Planning of Critical Processes Involving Humans,task success rate
 Piskachev2019Codebase,Codebase-Adaptive Detection of Security-Relevant Methods,"precision&recall, number of interaction"
