@@ -1,0 +1,51 @@
+citation_key,title,role
+Alizadeh2018,Reducing Interactive Refactoring Effort via Clustering-Based Multi-objective Search,supervisor
+Alrajeh2020,Adapting Requirements Models to Varying Environments,supervisor
+Amalfitano2019Combining,Combining Automated GUI Exploration of Android apps with Capture and Replay through Machine Learning,enquirer
+Arora2019,An Active Learning Approach for Improving the Accuracy of Automated Domain Model Extraction,supervisor
+Cardozo2023Auto-COP,Auto-COP: Adaptation generation in Context-oriented Programming using Reinforcement Learning options,enquirer
+Chen2019,Continuous Incident Triage for Large-Scale Online Service Systems,object
+Chen2020Incidents,How Incidental are the Incidents? Characterizing and Prioritizing Incidents for Large-Scale Online Service Systems,object
+Chen2021Interactive,Interactive Cross-language Code Retrieval with Auto-Encoders,supervisor
+Duan2023AFAlog,AFALog: A General Augmentation Framework for Log-based Anomaly Detection with Active Learning,oracle
+Duan2025LogAction,LogAction: Consistent Cross-system Anomaly Detection through Logs via Active Domain Adaptation,oracle
+Ge2022Locality,Locality-based security bug report identification via active learning,oracle
+Geethal2023Human,Human-in-the-Loop Automatic Program Repair,oracle
+Gheibi2022Lifelong,Lifelong Self-Adaptation: Self-Adaptation Meets Lifelong Machine Learning,oracle
+Gu2025ADAMAS,ADAMAS: Adaptive Domain-Aware Performance Anomaly Detection in Cloud Service Systems,supervisor
+Jambigi2022Automatic,Automatic Error Classification and Root Cause Determination while Replaying Recorded Workload Data at SAP HANA,oracle
+Jiang2020,How to Mitigate the Incident? An Effective Troubleshooting Guide Recommendation Technique for Online Service Systems,object
+Kang2022Active,Active Learning of Discriminative Subgraph Patterns for API Misuse Detection,oracle
+Kang2024Scaling,Scaling Code Pattern Inference with Interactive What-If Analysis,oracle
+Kapugama2022Human,Human-in-the-Loop Oracle Learning for Semantic Bugs in String Processing Programs,oracle
+Kim2022Learning,Learning probabilistic models for static analysis alarms,oracle
+Knauss2016ACon,ACon: A learning-based approach to deal with uncertainty in contextual requirements at runtime,supervisor
+Li2022Actionable,Actionable and Interpretable Fault Localization for Recurring Failures in Online Service Systems,oracle
+Li2023Preference,Preference Adaptation: user satisfaction is all you need!,teacher
+Liu2021CloneDetection,Can Neural Clone Detection Generalize to Unseen Functionalities,oracle
+Liu2023Incident,Incident-aware duplicate ticket aggregation for cloud systems,supervisor
+Liu2023Valar,VALAR: Streamlining Alarm Ranking in Static Analysis with Value-Flow Assisted Active Learning,oracle
+Liu2024hmCodeTrans,hmCodeTrans: Human–Machine Interactive Code Translation,supervisor
+Lloyd2017,Improving Human-in-the-Loop Adaptive Systems Using Brain-Computer Interaction,oracle
+Mangal2015AUser,A user-guided approach to program analysis,supervisor
+Murukannaiah2015,Platys: An Active Learning Framework for Place-Aware Application Development and Its Evaluation,"object, supervisor"
+Paterson2019,Using Unstructured Data to Improve the Continuous Planning of Critical Processes Involving Humans,object
+Piskachev2019Codebase,Codebase-Adaptive Detection of Security-Relevant Methods,oracle
+Radhakrishna2018,DroidStar: Callback Typestates for Android Classes,oracle
+Song2023APractical,A Practical Human Labeling Method for Online Just-in-Time Software Defect Prediction,oracle
+Sun2025Interpretable,Interpretable Failure Localization for Microservice Systems Based on Graph Autoencoder,oracle
+Tu2022Better,Better Data Labelling With EMBLEM (and how that Impacts Defect Prediction),oracle
+Wang2016,Local-based active classification of test report to assist crowdsourced testing,oracle
+Wei2021,Test Selection for Deep Learning Systems,oracle
+Wu2021Improving,Improving high-impact bug report prediction with combination of interactive machine learning and active learning,oracle
+Xiao2024LogCAE,LogCAE: An Approach for Log-based Anomaly Detection with Active Learning and Contrastive Learning,oracle
+Xu2018Cross,Cross-version defect prediction via hybrid active learning with kernel principal component analysis,oracle
+Yang2023DeepDebugger,DeepDebugger: An Interactive Time-Travelling Debugging Approach for Deep Classifiers,oracle
+Yang2023EvaCRC,EvaCRC: Evaluating Code Review Comments,oracle
+Yin2023Dynamic,Dynamic Data Fault Localization for Deep Neural Networks,oracle
+Yin2024Datactive,Datactive: Data Fault Localization for Object Detection Systems,supervisor
+Yu2021,Improving Vulnerability Inspection Efficiency Using Active Learning,"oracle, worker"
+Yu2022Identifying,Identifying Self-Admitted Technical Debts With Jitterbug: A Two-Step Approach,oracle
+Zhang2024LabelEase,LabelEase: A Semi-Automatic Tool for Efficient and Accurate Trace Labeling in Microservices,oracle
+Zheng2025ASASQL,ASASQL: Active Data Synthesis and Annotation for Efficient Natural Language SQL Generation in Cloud Systems,oracle
+Zhou2022Boosting,Boosting API Recommendation With Implicit Feedback,oracle

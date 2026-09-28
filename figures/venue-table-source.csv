@@ -1,0 +1,13 @@
+venue_full_name,acronym,type,published,reviewed,included_as,included_sb
+Automated Software Engineering Conference,ASE,C,1879,43,7,1
+European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering,ESEC/FSE,C,1893,379,6,1
+International Conference on Software Engineering,ICSE,C,2471,37,5,1
+"IEEE International Conference on Software Testing, Verification and Validation",ICST,C,877,15,1,0
+"IEEE International Conference on Software Analysis, Evolution and Reengineering",SANER,C,1120,16,1,0
+IEEE International Symposium on Software Reliability Engineering,ISSRE,S,577,17,4,0
+ACM SIGSOFT International Symposium on Software Testing and Analysis,ISSTA,S,843,163,3,0
+International Symposium on Software Engineering for Adaptive and Self-Managing Systems,SEAMS,S,323,24,3,1
+Information and Software Technology,IST,J,2010,100,5,0
+ACM Transactions on Software Engineering and Methodology,TOSEM,J,1201,449,4,0
+IEEE Transactions on Software Engineering,TSE,J,1638,63,7,0
+Total,,,14832,1306,46,4
