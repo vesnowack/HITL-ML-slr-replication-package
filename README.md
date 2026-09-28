@@ -17,11 +17,11 @@ for each research question.
 
 ```
 /search-results/
-    venue-search-summary.xlsx  per-venue digital library, search string, search
+    venue-search-summary.csv   per-venue digital library, search string, search
                                period, access date, papers returned by the
                                search, and papers included in the final review
-    ASE.xlsx, FSE.xlsx, ICSE.xlsx, ICST.xlsx, SANER.xlsx, ISSRE.xlsx,
-    ISSTA.xlsx, SEAMS.xlsx, IST.xlsx, TOSEM.xlsx, TSE.xlsx
+    ASE.csv, FSE.csv, ICSE.csv, ICST.csv, SANER.csv, ISSRE.csv,
+    ISSTA.csv, SEAMS.csv, IST.csv, TOSEM.csv, TSE.csv
                                per-venue full-text screening record: one row
                                per reviewed candidate (title, authors, link,
                                inclusion decision, and RQ1-RQ4 coding)
