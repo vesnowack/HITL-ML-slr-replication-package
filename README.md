@@ -38,8 +38,7 @@ for each research question.
 
 /figures/
     venue-table-source.csv          source data for the venue table (Table "papers" in 04_methodology.tex)
-    article_numbers.png, article_distribution.png, sankey_rq_combinations.png   the exact figure files as currently shipped in the paper
-    sankey_rq_combinations_reproduction.html   freshly generated from the extraction CSVs (see note below)
+    article_numbers.png, article_distribution.png, sankey_rq_combinations.png   the exact figure files as shown in the paper
 
 /scripts/
     generate-figures.py             regenerates ../figures/article_numbers.png, ../figures/article_distribution.png
