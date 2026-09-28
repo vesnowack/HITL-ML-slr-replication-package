@@ -1,0 +1,23 @@
+Venue,Venue acronym,PaperID,Publication Year,Title,Authors,Link,Already reviewed,To discuss (yes/no),To include in the Literature Review (yes/no),Role RQ1,Action RQ2,Quality attr RQ3,Metric RQ4,
+"2017 IEEE 24th International Conference on Software Analysis, Evolution and Reengineering (SANER)",SANER,Y.Zhang;_2017_Detecting,2017,Detecting similar repositories on GitHub,Y. Zhang; D. Lo; P. S. Kochhar; X. Xia; Q. Li; J. Sun,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7884605,no,no,no,,,,,
+"2018 IEEE 25th International Conference on Software Analysis, Evolution and Reengineering (SANER)",SANER,Z.Xu;J.L_2018_Cross-version,2018,Cross-version defect prediction via hybrid active learning with kernel principal component analysis,Z. Xu; J. Liu; X. Luo; T. Zhang,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8330210,no,no,yes,oracle,classification,effectiveness,f-measure,
+"2019 IEEE 26th International Conference on Software Analysis, Evolution and Reengineering (SANER)",SANER,N.Yang;K_2019_Improving,2019,Improving Model Inference in Industry by Combining Active and Passive Learning,N. Yang; K. Aslam; R. Schiffelers; L. Lensink; D. Hendriks; L. Cleophas; A. Serebrenik,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8668007,no,no,no,,,,,
+"2018 IEEE 25th International Conference on Software Analysis, Evolution and Reengineering (SANER)",SANER,X.Chen;H_2018_Automated,2018,Automated quality assessment for crowdsourced test reports of mobile applications,X. Chen; H. Jiang; X. Li; T. He; Z. Chen,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8330224,no,no,no,,,,,
+"2022 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",SANER,R.Rubei;_2022_Endowing,2022,Endowing third-party libraries recommender systems with explicit user feedback mechanisms,R. Rubei; C. Di Sipio; J. Di Rocco; D. Di Ruscio; P. T. Nguyen,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9825861,no,no,no,,,,,
+"2023 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",SANER,C.Tsigka_2023_Large,2023,Large Language Models: The Next Frontier for Variable Discovery within Metamorphic Testing?,C. Tsigkanos; P. Rani; S. Müller; T. Kehrer,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10123585,no,no,no,,,,,
+"2023 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",SANER,J.Liu;C._2023_Improving,2023,Improving Fine-tuning Pre-trained Models on Small Source Code Datasets via Variational Information Bottleneck,J. Liu; C. Sha; X. Peng,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10123591,no,no,no,,,,,
+"2023 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",SANER,A.K.Jha;_2023_JTestMigBench,2023,JTestMigBench and JTestMigTax: A benchmark and taxonomy for unit test migration,A. K. Jha; M. Islam; S. Nadi,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10123523,no,no,no,,,,,
+"2017 IEEE 24th International Conference on Software Analysis, Evolution and Reengineering (SANER)",SANER,R.Mibe;T_2017_Business,2017,Business process recovery based on system log and information of organizational structure,R. Mibe; T. Tanaka; T. Kobayashi; S. Kobayashi,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7884668,no,no,no,,,,,
+"2022 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",SANER,M.Moser;_2022_Towards,2022,Towards Attribute Grammar Mining by Symbolic Execution,M. Moser; J. Pichler; A. Pointner,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9825876,no,no,no,,,,,
+"2024 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",SANER,YujiaChen_2024_APIGen,2024,APIGen: Generative API Method Recommendation,"Yujia Chen;
+Cuiyun Gao;
+Muyijie Zhu;
+Qing Liao;
+Yong Wang;
+Guoai Xu",https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10589763,no,no,no,,,,,
+"2024 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",SANER,DexinLiu_2024_ALANCA,2024,ALANCA: Active Learning Guided Adversarial Attacks for Code Comprehension on Diverse Pre-trained and Large Language Models,"Dexin Liu;
+Shikun Zhang",https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10589851,no,no,no,,,,,
+,,,2025,"Building Your Own Product Copilot: Challenges, Opportunities, and Needs",,,no,no,no,,,,,
+,,,2025,Evaluating ReLink for Traceability Link Recovery in Practice,,,no,no,no,,,,,
+,,,2025,Language Models to Support Multi-Label Classification of Industrial Data,,,no,no,no,,,,,
+,,,2025,Evaluating Multi-Modal LLMs for Automatically Recognizing Semantic Elements in UML Use Case Diagram Images,,,no,no,no,,,,,

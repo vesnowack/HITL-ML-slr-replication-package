@@ -1,0 +1,96 @@
+Venue,Venue acronym,PaperID,Publication Year,Title,Authors,Link,Already reviewed,To discuss (yes/no),To include in the Literature Review (yes/no),Role RQ1,Action RQ2,Quality attr RQ3,Metric RQ4,
+IEEE Transactions on Software Engineering,TSE,E.T.Barr_2015_The,2015,The Oracle Problem in Software Testing: A Survey,E. T. Barr; M. Harman; P. McMinn; M. Shahbaz; S. Yoo,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6963470,yes,,,,,,,
+IEEE Transactions on Software Engineering,TSE,J.M.Zhan_2022_Machine,2022,"Machine Learning Testing: Survey, Landscapes and Horizons",J. M. Zhang; M. Harman; L. Ma; Y. Liu,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9000651,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,C.Tantit_2020_The,2020,The Impact of Class Rebalancing Techniques on the Performance and Interpretation of Defect Prediction Models,C. Tantithamthavorn; A. E. Hassan; K. Matsumoto,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8494821,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,E.d.S.Ma_2017_Using,2017,Using Natural Language Processing to Automatically Detect Self-Admitted Technical Debt,E. d. S. Maldonado; E. Shihab; N. Tsantalis,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7820211,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,E.Kocagu_2013_Active,2013,Active learning and effort estimation: Finding the essential content of software effort estimation data,E. Kocaguneli; T. Menzies; J. Keung; D. Cok; R. Madachy,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6392173,yes,,,,,,,
+IEEE Transactions on Software Engineering,TSE,V.Nair;Z_2020_Finding,2020,Finding Faster Configurations Using FLASH,V. Nair; Z. Yu; T. Menzies; N. Siegmund; S. Apel,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8469102,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,A.T.Misi_2014_Bayesian,2014,Bayesian Networks For Evidence-Based Decision-Making in Software Engineering,A. T. Misirli; A. B. Bener,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6808495,yes,,,,,,,
+IEEE Transactions on Software Engineering,TSE,A.Groce;_2014_You,2014,You Are the Only Possible Oracle: Effective Test Selection for End Users of Interactive Machine Learning Systems,A. Groce; T. Kulesza; C. Zhang; S. Shamasunder; M. Burnett; W. -K. Wong; S. Stumpf; S. Das; A. Shinsel; F. Bice; K. McIntosh,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6682887,yes,,,,,,,
+IEEE Transactions on Software Engineering,TSE,A.Ramíre_2019_A,2019,A Systematic Review of Interaction in Search-Based Software Engineering,A. Ramírez; J. R. Romero; C. L. Simons,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8283568,yes,,,,,,,
+IEEE Transactions on Software Engineering,TSE,J.Krall;_2015_GALE,2015,GALE: Geometric Active Learning for Search-Based Software Engineering,J. Krall; T. Menzies; M. Davies,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7105950,yes,,,,,,,
+IEEE Transactions on Software Engineering,TSE,R.Hoda_2022_Socio-Technical,2022,Socio-Technical Grounded Theory for Software Engineering,R. Hoda,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9520216,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,Y.He;G.M_2022_Towards,2022,Towards Security Threats of Deep Learning Systems: A Survey,Y. He; G. Meng; K. Chen; X. Hu; J. He,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9252914,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,L.Marian_2017_GK-Tail+,2017,GK-Tail+ An Efficient Approach to Learn Software Models,L. Mariani; M. Pezzè; M. Santoro,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7728088,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,Y.Zhang;_2021_Companies’,2021,Companies’ Participation in OSS Development–An Empirical Study of OpenStack,Y. Zhang; M. Zhou; A. Mockus; Z. Jin,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8862903,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,M.Wen;R._2020_How,2020,How Well Do Change Sequences Predict Defects? Sequence Learning from Software Changes,M. Wen; R. Wu; S. -C. Cheung,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8493303,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,Z.Yu;F.M_2022_Identifying,2022,Identifying Self-Admitted Technical Debts With Jitterbug: A Two-Step Approach,Z. Yu; F. M. Fahid; H. Tu; T. Menzies,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9226105,no,no,yes,oracle,classification,"correctness, efficiency",precision&recall,
+IEEE Transactions on Software Engineering,TSE,Y.Zhou;X_2022_Boosting,2022,Boosting API Recommendation With Implicit Feedback,Y. Zhou; X. Yang; T. Chen; Z. Huang; X. Ma; H. Gall,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9329198,no,no,yes,oracle,classification,efficiency,precision&recall,
+IEEE Transactions on Software Engineering,TSE,M.Schur;_2015_Mining,2015,Mining Workflow Models from Web Applications,M. Schur; A. Roth; A. Zeller,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7169616,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,Z.Yu;C.T_2021_Improving,2021,Improving Vulnerability Inspection Efficiency Using Active Learning,Z. Yu; C. Theisen; L. Williams; T. Menzies,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8883076,yes,,,,,,,
+IEEE Transactions on Software Engineering,TSE,H.Tu;Z.Y_2022_Better,2022,Better Data Labelling With EMBLEM (and how that Impacts Defect Prediction),H. Tu; Z. Yu; T. Menzies,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9064604,no,no,yes,oracle,classification,efficiency,precision&recall,
+IEEE Transactions on Software Engineering,TSE,H.Zhong;_2022_Inferring,2022,Inferring Bug Signatures to Detect Real Bugs,H. Zhong; X. Wang; H. Mei,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9099449,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,H.J.Kang_2022_Active,2022,Active Learning of Discriminative Subgraph Patterns for API Misuse Detection,H. J. Kang; D. Lo,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9392340,no,no,yes,oracle,classification,effectiveness,"precision&recall, f-measure",
+IEEE Transactions on Software Engineering,TSE,X.Franch_2022_How,2022,How do Practitioners Perceive the Relevance of Requirements Engineering Research?,X. Franch; D. Mendez; A. Vogelsang; R. Heldal; E. Knauss; M. Oriol; G. H. Travassos; J. C. Carver; T. Zimmermann,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9282205,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,F.Fowze;_2021_ProXray,2021,ProXray: Protocol Model Learning and Guided Firmware Analysis,F. Fowze; D. Tian; G. Hernandez; K. Butler; T. Yavuz,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8823941,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,Z.Zhong;_2023_Neural,2023,Neural Network Guided Evolutionary Fuzzing for Finding Traffic Violations of Autonomous Vehicles,Z. Zhong; G. Kaiser; B. Ray,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9847081,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,M.Raatik_2023_Improved,2023,Improved Management of Issue Dependencies in Issue Trackers of Large Collaborative Projects,M. Raatikainen; Q. Motger; C. M. Lüders; X. Franch; L. Myllyaho; E. Kettunen; J. Marco; J. Tiihonen; M. Halonen; T. Männistö,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9911687,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,C.Ayala;_2022_Use,2022,Use and Misuse of the Term “Experiment” in Mining Software Repositories Research,C. Ayala; B. Turhan; X. Franch; N. Juristo,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9547824,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,S.Wang;L_2023_Machine/Deep,2023,Machine/Deep Learning for Software Engineering: A Systematic Literature Review,S. Wang; L. Huang; A. Gao; J. Ge; T. Zhang; H. Feng; I. Satyarth; M. Li; H. Zhang; V. Ng,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9772253,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,J.E.Pére_2022_DevOps,2022,DevOps Research-Based Teaching Using Qualitative Research and Inter-Coder Agreement,J. E. Pérez; Á. González-Prieto; J. Dı´az; D. López-Fernández; J. García-Martín; A. Yagüe,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9465728,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,L.Gong;H_2023_A,2023,A Comprehensive Investigation of the Impact of Class Overlap on Software Defect Prediction,L. Gong; H. Zhang; J. Zhang; M. Wei; Z. Huang,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9944157,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,J.A.Pren_2022_Making,2022,Making the Most of Small Software Engineering Datasets With Modern Machine Learning,J. A. Prenner; R. Robbes,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9653849,yes,,,,,,,
+IEEE Transactions on Software Engineering,TSE,X.Ling;R_2022_How,2022,How Different is Test Case Prioritization for Open and Closed Source Projects?,X. Ling; R. Agrawal; T. Menzies,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9367020,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,Z.Zhang;_2023_Context-Aware,2023,Context-Aware Neural Fault Localization,Z. Zhang; Y. Lei; X. Mao; M. Yan; X. Xia; D. Lo,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10132088,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,L.Zampro_2023_Dynamic,2023,Dynamic Human-in-the-Loop Assertion Generation,L. Zamprogno; B. Hall; R. Holmes; J. M. Atlee,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9933038,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,W.Sun;M._2023_Robust,2023,Robust Test Selection for Deep Neural Networks,W. Sun; M. Yan; Z. Liu; D. Lo,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10319282,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,J.Song;X_2023_$\mathtt,2023,$\mathtt {SIEGE}$SIEGE: A Semantics-Guided Safety Enhancement Framework for AI-Enabled Cyber-Physical Systems,J. Song; X. Xie; L. Ma,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10144351,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,F.Zhang;_2023_Constructing,2023,Constructing Cyber-Physical System Testing Suites Using Active Sensor Fuzzing,F. Zhang; Q. Wu; B. Xuan; Y. Chen; W. Lin; C. M. Poskitt; J. Sun; B. Chen,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10292692,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,C.Geetha_2023_Human-in-the-Loop,2023,Human-in-the-Loop Automatic Program Repair,C. Geethal; M. Böhme; V. -T. Pham,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10225252,no,no,yes,oracle,classification,effectiveness,"accuracy, number of interaction, precision&recall",
+IEEE Transactions on Software Engineering,TSE,Y.Chen;C_2023_API,2023,API Usage Recommendation Via Multi-View Heterogeneous Graph Representation Learning,Y. Chen; C. Gao; X. Ren; Y. Peng; X. Xia; M. R. Lyu,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10058556,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,J.Zhang;_2023_Vulnerability,2023,Vulnerability Detection by Learning From Syntax-Based Execution Paths of Code,J. Zhang; Z. Liu; X. Hu; X. Xia; S. Li,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10153647,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,G.Denaro_2023_Prevent,2023,Prevent: An Unsupervised Approach to Predict Software Failures in Production,G. Denaro; R. Heydarov; A. Mohebbi; M. Pezzè,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10305549,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,JunjieWang_2024_Software,2024,"Software Testing With Large Language Models: Survey, Landscape, and Vision","Junjie Wang;
+Yuchao Huang;
+Chunyang Chen;
+Zhe Liu;
+Song Wang;
+Qing Wang",https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10440574,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,XueqiDang_2024_Test,2024,Test Input Prioritization for Machine Learning Classifiers,"Xueqi Dang;
+Yinghua Li;
+Mike Papadakis;
+Jacques Klein;
+Tegawendé F. Bissyandé;
+Yves Le Traon",https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10382258,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,JiaqiLiu_2024_hmCodeTrans,2024,hmCodeTrans: Human–Machine Interactive Code Translation,"Jiaqi Liu;
+Fengming Zhang;
+Xin Zhang;
+Zhiwen Yu;
+Liang Wang;
+Yao Zhang;
+Bin Guo",https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10476504,no,no,yes,supervisor,verification&correction,efficiency,task success rate,
+IEEE Transactions on Software Engineering,TSE,QiangHu_2024_Active,2024,Active Code Learning: Benchmarking Sample-Efficient Training of Code Models,"Qiang Hu;
+Yuejun Guo;
+Xiaofei Xie;
+Maxime Cordy;
+Lei Ma;
+Mike Papadakis;
+Yves Le Traon",https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10471610,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,HanoufAlGhanmi_2024_ExplanaSC,2024,ExplanaSC: A Framework for Determining Information Requirements for Explainable Blockchain Smart Contracts,"Hanouf Al Ghanmi;
+Rami Bahsoon",https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10546473,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,JinanJiang_2024_Unearthing,2024,Unearthing Gas-Wasting Code Smells in Smart Contracts with Large Language Models,"Jinan Jiang;
+Zihao Li;
+Haoran Qin;
+Muhui Jiang;
+Xiapu Luo;
+Xiaoming Wu;
+Haoyu Wang;
+Yutian Tang;
+Chenxiong Qian;
+Ting Chen",https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10757316,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,"Ge, Chuyan and Wang, Tiantian and Yang, Xiaotian and Treude, Christoph",2025,Cross-Level Requirements Tracing Based on Large Language Models,,,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,"Zeng, Liangzhao and Benatallah, Boualem and Dumas, Marlon and Kalagnanam, Jayant and Ngu, Anne H. H.",2025,QoS-Aware Service Composition: A Retrospective,,,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,"Liu, Yu and Li, Tong and Zhang, Runzi and Jin, Zhao and Tong, Mingkai and Liu, Wenmao and Wang, Yiting and Yang, Zhen",2025,A Context-Aware Clustering Approach for Assisting Operators in Classifying Security Alerts,,,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,"Letier, Emmanuel and van Lamsweerde, Axel",2025,Obstacle Analysis in Requirements Engineering: Retrospective and Emerging Challenges,,,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,"Turzo, Asif Kamal and Sultana, Sayma and Bosu, Amiangshu",2025,From First Patch to Long-Term Contributor: Evaluating Onboarding Recommendations for OSS Newcomers,,,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,"Voria, Gianmario and Casillo, Francesco and Gravino, Carmine and Catolino, Gemma and Palomba, Fabio",2025,RECOVER: Toward Requirements Generation From Stakeholders’ Conversations,,,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,"Zhang, Xiangyu and Zhou, Yu and Yang, Guang and Gall, Harald C. and Chen, Taolue",2025,"Anchor Attention, Small Cache: Code Generation With Large Language Models",,,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,"Jiang, Zhonghao and Yan, Meng and Huang, Li and Sun, Weifeng and Liu, Chao and Sun, Song and Lo, David",2025,DeepVec: State-Vector Aware Test Case Selection for Enhancing Recurrent Neural Network,,,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,"He, Zilong and Chen, Pengfei and Luo, Yu and Yan, Qiuyu and Chen, Hongyang and Yu, Guangba and Li, Fangyuan and Li, Xiaoyun and Zheng, Zibin",2025,Subgraphs as First-Class Citizens in Incident Management for Large-Scale Online Systems: An Evolution-Aware Framework,,,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,"Wu, Jiarong and Jiang, Yanyan and Wei, Lili and Xu, Congying and Cheung, Shing-Chi and Xu, Chang",2025,Question Selection for Multimodal Code Search Synthesis Using Probabilistic Version Spaces,,,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,"Trabelsi, Imen and Mahmoudi, Brahim and Minani, Jean Baptiste and Moha, Naouel and Guéhéneuc, Yann-Gaël",2025,A Systematic Literature Review of Machine Learning Approaches for Migrating Monolithic Systems to Microservices,,,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,"Leest, Joran and Raibulet, Claudia and Lago, Patricia and Gerostathopoulos, Ilias",2025,From Tea Leaves to System Maps: A Survey and Framework on Context-aware Machine Learning Monitoring,,,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,"Le Goues, Claire and Nguyen, ThanhVu and Forrest, Stephanie and Weimer, Westley",2025,The Evolution of Automated Software Repair,,,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,"Gao, Haoyu and Treude, Christoph and Zahedi, Mansooreh",2025,Adapting Installation Instructions in Rapidly Evolving Software Ecosystems,,,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,"Chen, Hui and Zhao, Yunhua and Damevski, Kostadin",2025,Improving Data Curation of Software Vulnerability Patches through Uncertainty Quantification,,,no,no,no,,,,,
+IEEE Transactions on Software Engineering,TSE,"Wu, Yiwen and Zhang, Yang and Wang, Tao and Ding, Bo and Wang, Huaimin",2025,DockerFill: Automatically Completing Dockerfile Code with Syntax-aware Multi-task Learning,,,no,no,no,,,,,

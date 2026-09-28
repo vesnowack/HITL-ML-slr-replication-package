@@ -1,0 +1,24 @@
+Venue,Venue acronym,PaperID,Publication Year,Title,Authors,Link,Already reviewed,To discuss (yes/no),To include in the Literature Review (yes/no),Role RQ1,Action RQ2,Quality attr RQ3,Metric RQ4,
+2015 IEEE 26th International Symposium on Software Reliability Engineering (ISSRE),ISSRE,X.-B.D.L_2015_Should,2015,Should fixing these failures be delegated to automated program repair?,X. -B. D. Le; T. -D. B. Le; D. Lo,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7381836,no,no,no,,,,,
+2018 IEEE 29th International Symposium on Software Reliability Engineering (ISSRE),ISSRE,M.Camill_2018_Online,2018,Online Model-Based Testing under Uncertainty,M. Camilli; C. Bellettini; A. Gargantini; P. Scandurra,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8539067,no,no,no,,,,,
+2016 IEEE 27th International Symposium on Software Reliability Engineering (ISSRE),ISSRE,R.Almagh_2016_Automatically,2016,Automatically Classifying Test Results by Semi-Supervised Learning,R. Almaghairbe; M. Roper,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7774513,no,no,no,,,,,
+2023 IEEE 34th International Symposium on Software Reliability Engineering (ISSRE),ISSRE,H.Guo;C._2023_Multi-Objective,2023,Multi-Objective White-Box Test Input Selection for Deep Neural Network Model Enhancement,H. Guo; C. Tao; Z. Huang,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10301276,no,no,no,,,,,
+2023 IEEE 34th International Symposium on Software Reliability Engineering (ISSRE),ISSRE,A.Chan;A_2023_Evaluating,2023,Evaluating the Effect of Common Annotation Faults on Object Detection Techniques,A. Chan; A. Gujarati; K. Pattabiraman; S. Gopalakrishnan,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10299946,no,no,no,,,,,
+2023 IEEE 34th International Symposium on Software Reliability Engineering (ISSRE),ISSRE,C.Duan;T_2023_AFALog,2023,AFALog: A General Augmentation Framework for Log-based Anomaly Detection with Active Learning,C. Duan; T. Jia; H. Cai; Y. Li; G. Huang,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10301228,no,no,yes,oracle,classification,effectiveness,"precision&recall, f-measure, number of interaction",
+2023 IEEE 34th International Symposium on Software Reliability Engineering (ISSRE),ISSRE,X.Peng;Y_2023_On,2023,On the Vulnerabilities of Text-to-SQL Models,X. Peng; Y. Zhang; J. Yang; M. Stevenson,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10301242,no,no,no,,,,,
+2023 IEEE 34th International Symposium on Software Reliability Engineering (ISSRE),ISSRE,J.Li;Y.L_2023_A,2023,A Two-Stage Framework for Ambiguous Classification in Software Engineering,J. Li; Y. Lei; S. Li; H. Zhou; Y. Yu; Z. Jia; Y. Ma; T. Wang,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10301209,no,no,no,,,,,
+2022 IEEE 33rd International Symposium on Software Reliability Engineering (ISSRE),ISSRE,Y.Chen;O_2022_SlowCoach,2022,SlowCoach: Mutating Code to Simulate Performance Bugs,Y. Chen; O. Schwahn; R. Natella; M. Bradbury; N. Suri,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9978952,no,no,no,,,,,
+,ISSRE,ShenglinZhang_2024_LabelEase,2024,LabelEase: A Semi-Automatic Tool for Efficient and Accurate Trace Labeling in Microservices,"Shenglin Zhang;
+Zeyu Che;
+Zhongjie Pan;
+Xiaohui Nie;
+Yongqian Sun;
+Lemeng Pan;
+Dan Pei",https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10771374,no,no,yes,oracle,classification,"efficiency, effectiveness","precision&recall, f-measure, number of interaction",
+,ISSRE,Pei Xiao_2024_LogCAE,2024,LogCAE: An Approach for Log-based Anomaly Detection with Active Learning and Contrastive Learning,,https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10771438,no,no,yes,oracle,classification,effectiveness,"accuracy, precision&recall, f-measure",
+,ISSRE,ShuangLi_2024_Android,2024,Android’s Cat-and-Mouse Game: Understanding Evasion Techniques against Dynamic Analysis,,https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10771369,no,no,no,,,,,
+,ISSRE,YuanYuan_2024_Exploring,2024,Exploring Hierarchical Patterns for Alert Aggregation in Supercomputers,,https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10771315,no,no,no,,,,,
+,ISSRE,LeiCui_2024_APIBeh,2024,APIBeh: Learning Behavior Inclination of APIs for Malware Classification,,https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10771500,no,no,no,,,,,
+,ISSRE,,2025,ASASQL: Active Data Synthesis and Annotation for Efficient Natural Language SQL Generation in Cloud Systems,Ruiqin Zheng;Zhiyuan Wu;Shengbing Shi;Qiang Bai;Hao Li;Hui Yu;Weigang Wu,,no,no,yes,oracle,classification,efficiency,accuracy,
+,ISSRE,,2025,ZeroLog: Zero-Label Generalizable Cross-System Log-based Anomaly Detection,Xinlong Zhao;Tong Jia;Minghua He;Ying Li;Gang Huang,,no,no,no,,,,,
+,ISSRE,,2025,Integrating GraphSAGE and Mamba for Self-Supervised Spatio-Temporal Fault Detection in Microservice Systems,Shenglin Zhang;Yingke Li;Jianjin Tang;Chenyu Zhao;Wenwei Gu;Yongqian Sun;Dan Pei,,no,no,no,,,,,
