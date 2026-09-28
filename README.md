@@ -24,11 +24,7 @@ for each research question.
     ISSTA.xlsx, SEAMS.xlsx, IST.xlsx, TOSEM.xlsx, TSE.xlsx
                                per-venue full-text screening record: one row
                                per reviewed candidate (title, authors, link,
-                               inclusion decision, and RQ1-RQ4 coding, reviewer name, exclusion-reason,
-                               and free-text comment columns from the working
-                               sheets are not included here); row counts match
-                               the "Reviewed" column in the venue table in
-                               04_methodology.tex exactly
+                               inclusion decision, and RQ1-RQ4 coding)
 
 /data-extraction/
     rq1-roles.csv
@@ -37,7 +33,7 @@ for each research question.
     rq4-evaluation-metrics.csv
 
 /figures/
-    venue-table-source.csv          source data for the venue table (Table "papers" in 04_methodology.tex)
+    venue-table-source.csv          source data for the venue table in the paper
     article_numbers.png, article_distribution.png, sankey_rq_combinations.png   the exact figure files as shown in the paper
 
 /scripts/
@@ -59,11 +55,7 @@ README.md                       this file
 
 The paper additionally discusses, outside the systematic review itself, how
 LLM- and agentic-AI systems are changing the broader conception of
-human-in-the-loop (Section "The changing locus of human involvement in the
-LLM and agentic era"). That discussion uses the RQ1-RQ4 dimensions as
-analytical lenses over contextual literature and is explicitly not a
-systematic sample -- see `09_threats.tex` in the main repository ("Contextual
-literature outside the systematic corpus").
+human-in-the-loop.
 
 ## Search and selection methodology
 
@@ -143,9 +135,7 @@ each scored on a three-point scale (No = 1, Partially = 2, Yes = 3):
 
 All criteria were equally weighted; the six scores per paper were aggregated
 and normalised to an overall quality score from 1 to 5. All assessed papers
-achieved a high overall score, so none were excluded at this stage. Per-study
-scores were not found in the working repository, so they are not included as
-a data file here.
+achieved a high overall score, so none were excluded at this stage.
 
 ## Data extraction and coding
 
