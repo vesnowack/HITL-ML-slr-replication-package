@@ -1,12 +1,15 @@
 # Replication package: Understanding the "Human" in the Loop - A Systematic Literature Review in Software Engineering
 
-This package contains the data, search results, screening decisions, quality assessments, and extracted data supporting the paper *[paper title]*. It allows a reader to inspect and reproduce the study selection process and the results reported for each research question.
+This package contains the data, search results, screening decisions, and
+extracted data supporting the paper *the "Human" in the Loop - 
+A Systematic Literature Review in Software Engineering*. It allows a reader to
+inspect and reproduce the study selection process and the results reported
+for each research question.
 
 ## What this package includes
 
-- Raw and filtered search results per venue
-- Screening decisions (inclusion/exclusion) for every candidate paper
-- Quality assessment scores for all included studies
+- Raw search results per venue
+- The full list of the 50 primary studies included in the review
 - Extracted/coded data used to answer each RQ
 - Source data and scripts for the tables and figures in the paper
 
@@ -14,45 +17,63 @@ This package contains the data, search results, screening decisions, quality ass
 
 ```
 /search-results/
-    ASE.csv                     raw search results for ASE
-    FSE.csv                     raw search results for FSE
-    ...
-    keyword-search-log.md       manual search keyword iteration log
-
-/screening/
-    included-papers.csv         full-text review outcome for papers that passed screening and were included in the review
+    venue-search-summary.xlsx  per-venue digital library, search string, search
+                               period, access date, papers returned by the
+                               search, and papers included in the final review
+    ASE.xlsx, FSE.xlsx, ICSE.xlsx, ICST.xlsx, SANER.xlsx, ISSRE.xlsx,
+    ISSTA.xlsx, SEAMS.xlsx, IST.xlsx, TOSEM.xlsx, TSE.xlsx
+                               per-venue full-text screening record: one row
+                               per reviewed candidate (title, authors, link,
+                               inclusion decision, and RQ1-RQ4 coding, reviewer name, exclusion-reason,
+                               and free-text comment columns from the working
+                               sheets are not included here); row counts match
+                               the "Reviewed" column in the venue table in
+                               04_methodology.tex exactly
 
 /data-extraction/
-    codebook.md                 definitions of all extracted fields
     rq1-roles.csv
     rq2-interactions.csv
     rq3-quality-attributes.csv
     rq4-evaluation-metrics.csv
 
 /figures/
-    venue-table-source.csv      source data for Table: venue counts
-    fig-history-source.csv      source data for the by-year/by-type figures
-    generate-figures.py         script to regenerate the figures from source data
+    venue-table-source.csv          source data for the venue table (Table "papers" in 04_methodology.tex)
+    article_numbers.png, article_distribution.png, sankey_rq_combinations.png   the exact figure files as currently shipped in the paper
+    sankey_rq_combinations_reproduction.html   freshly generated from the extraction CSVs (see note below)
 
-/primary-studies.csv            full list of the 51 included studies
-                                 (citation, DOI/link, venue, year, source: AS/SB)
+/scripts/
+    generate-figures.py             regenerates ../figures/article_numbers.png, ../figures/article_distribution.png
+    generate-sankey.py              regenerates ../figures/sankey_rq_combinations_reproduction.png
+
+/primary-studies.csv            full list of the 50 included studies
+                                 (citation key, title, authors, year, venue, link, source: automated search(AS)/snowballing(SB))
 
 README.md                       this file
 ```
 
 ## Research questions
 
-- **RQ1.** What design roles do human agents play in HITL machine learning systems?
-- **RQ2.** What types of human-agent interactions are supported by existing HITL software architectures?
-- **RQ3.** What software quality attributes are prioritized when designing HITL systems, and do they reflect human-centric concerns?
-- **RQ4.** What evaluation metrics are used to assess the effectiveness and quality of HITL system designs?
-- **RQ5.** To what extent has the rise of LLMs and generative AI impacted the design of HITL systems?
+- **RQ1.** What design roles are assigned to human agents in HITL machine-learning systems?
+- **RQ2.** What types of actions do human agents perform in their interactions with ML agents?
+- **RQ3.** What software quality attributes are considered when designing HITL machine-learning systems, and how do these account for human participation?
+- **RQ4.** What evaluation metrics are used to assess HITL machine-learning systems, and what aspects of the human-ML system do they capture?
+
+The paper additionally discusses, outside the systematic review itself, how
+LLM- and agentic-AI systems are changing the broader conception of
+human-in-the-loop (Section "The changing locus of human involvement in the
+LLM and agentic era"). That discussion uses the RQ1-RQ4 dimensions as
+analytical lenses over contextual literature and is explicitly not a
+systematic sample -- see `09_threats.tex` in the main repository ("Contextual
+literature outside the systematic corpus").
 
 ## Search and selection methodology
 
-**Search period.** January 2015 – December 2025.
+**Search period.** January 2015 - December 2025.
 
-**Search strategy.** A combination of manual and automated search, following the Quasi-Gold Standard (QGS) approach (Zhang et al.). The manual search identified keyword terms and relevant venues; the automated search complemented it using a keyword-based query against IEEE Xplore, ACM Digital Library, and Science Direct.
+**Search strategy.** A combination of manual and automated search: the manual search
+identified keyword terms and relevant venues; the automated search complemented
+it using a keyword-based query against IEEE Xplore, ACM Digital Library, and
+Science Direct.
 
 **Automated search query:**
 ```
@@ -61,31 +82,36 @@ README.md                       this file
 ("machine learning" OR "learning")
 ```
 
-**Manual search keywords:** human, loop, active, interactive, mixed-initiative, query, robust-, verifi-, guarante-, explain-, interpret-, shift, streams, decision-support, oracle, suggest-, recommend-, learn-, synthesis, hybrid, crowd-, collabor-, teach-, feedback, iterat-, guid-
+**Manual search keywords:** human, loop, active, interactive, mixed-initiative,
+query, robust-, verifi-, guarante-, explain-, interpret-, shift, streams,
+decision-support, oracle, suggest-, recommend-, learn-, synthesis, hybrid,
+crowd-, collabor-, teach-, feedback, iterat-, guid-
 
-**Venues searched.** 11 top-tier Software Engineering venues (5 conferences, 3 symposia, 3 journals), ranked A*/A in CORE or Q1 in Scimago. Full list and per-venue counts are in `search-results/` and `figures/venue-table-source.csv`.
-
-**Note on scope.** Springer, arXiv, and DBLP were not searched directly — Springer indexes a large volume of AI venues outside our SE scope, and arXiv/DBLP are not peer-reviewed sources and fell outside our quality criteria. Relevant work from these sources was captured indirectly, where it met the inclusion criteria, through the manual search and snowballing.
+**Venues searched.** 11 top-tier Software Engineering venues (5 conferences, 3
+symposia, 3 journals), ranked A*/A in CORE or Q1 in Scimago. Full list and
+per-venue counts are in `search-results/` and `figures/venue-table-source.csv`.
 
 ### Inclusion criteria
 
 | ID | Criterion |
 |---|---|
-| I1 | Published between January 2015 and December 2025 |
-| I2 | Published in one of the top-tier Software Engineering venues |
-| I3 | Classified as a full paper (technical or experience) if published in conference proceedings |
-| I4 | Describes a system that includes a human and an ML agent |
-| I5 | Describes a system involving iterative interaction between the human and ML agents |
+| I1 | The article is published in the period between January 2015 - December 2025. |
+| I2 | The article is published in one of the top-tier venues in Software Engineering. |
+| I3 | The article is classified as a full paper (technical or experience) if published in conference proceedings. |
+| I4 | The article describes a system that includes a human and an ML agent. |
+| I5 | The article describes a system in which human involvement forms part of an iterative interaction process with the ML agent. |
+| I6 | The article describes a system in which information arising from the human's behaviour, judgement, feedback, correction, or other contribution is used to train or refine the ML agent. |
 
 ### Exclusion criteria
 
 | ID | Criterion |
 |---|---|
-| E1 | Editorial, extended abstract, position paper, short paper, tool paper, poster summary, keynote, survey, opinion, tutorial/conference/workshop/panel summary |
-| E2 | Published in a venue without a full peer-review process |
-| E3 | Describes an ML model trained/modified offline without human involvement |
-| E4 | No explicit investigation into human involvement |
-| E5 | Keywords appear in the title with a different meaning than intended here |
+| E1 | Articles classified as editorial, extended abstracts, position papers, short papers, tool papers, poster summaries, keynotes, surveys, opinions, tutorial summaries, conference summaries (or introductions to conference proceedings or journal issues), workshop summaries or panel summaries. |
+| E2 | Articles from venues that do not apply a full peer-review process. |
+| E3 | Articles describing systems where the ML model is trained or modified offline without human involvement, such as through hyper-parameter tuning or architectural changes. |
+| E4 | Articles describing systems without an explicit investigation into human involvement. |
+| E5 | Articles in which the keywords identified above appear in the title but have different meanings from those intended in this review. |
+
 
 ## Study selection results
 
@@ -93,17 +119,19 @@ README.md                       this file
 |---|---:|
 | Articles initially screened across all venues | 14,832 |
 | Full-text reviewed | 1,306 |
-| Included via automated search (AS) | 47 |
+| Included via automated search (AS) | 46 |
 | Included via snowball search (SB) | 4 |
-| &nbsp;&nbsp;— backward snowball | 2 |
-| &nbsp;&nbsp;— forward snowball | 2 |
-| **Total primary studies** | **51** |
+| &nbsp;&nbsp;-- backward snowball | 2 |
+| &nbsp;&nbsp;-- forward snowball | 2 |
+| **Total primary studies** | **50** |
 
-The full list of 51 primary studies, with citation details and DOI/link, is in `primary-studies.csv`.
+The full list of 50 primary studies, with citation details and link, is in
+`primary-studies.csv`.
 
 ## Quality assessment
 
-Each included study was scored against six quality criteria, each on a three-point scale (No = 1, Partially = 2, Yes = 3):
+Each paper that passed screening was assessed against six quality criteria,
+each scored on a three-point scale (No = 1, Partially = 2, Yes = 3):
 
 | ID | Criterion |
 |---|---|
@@ -114,23 +142,29 @@ Each included study was scored against six quality criteria, each on a three-poi
 | QC5 | Is the experimental design appropriate? |
 | QC6 | Does the research add value to the academic or industrial community? |
 
-All included studies met the quality bar; no studies were excluded at this stage.
+All criteria were equally weighted; the six scores per paper were aggregated
+and normalised to an overall quality score from 1 to 5. All assessed papers
+achieved a high overall score, so none were excluded at this stage. Per-study
+scores were not found in the working repository, so they are not included as
+a data file here.
 
 ## Data extraction and coding
 
-`data-extraction/codebook.md` defines every field extracted per paper. Extraction was organised per RQ:
+Extraction was organised per RQ:
 
-- `rq1-roles.csv` — human role classification per study
-- `rq2-interactions.csv` — human-agent interaction types per study
-- `rq3-quality-attributes.csv` — software quality attributes discussed per study
-- `rq4-evaluation-metrics.csv` — evaluation metrics used per study
+- `rq1-roles.csv` -- human role classification per study
+- `rq2-interactions.csv` -- human-agent interaction types per study
+- `rq3-quality-attributes.csv` -- software quality attributes discussed per study
+- `rq4-evaluation-metrics.csv` -- evaluation metrics used per study
 
 ## Reproducing figures and tables
 
 ```bash
-cd figures
-python generate-figures.py
+cd scripts
+python3 generate-figures.py             # ../figures/article_numbers.png, ../figures/article_distribution.png
+python3 generate-sankey.py              # ../figures/sankey_rq_combinations_reproduction.png/.html (reproduction -- see note above)
 ```
 
-This regenerates the venue table and the by-year/by-type distribution figures from the source CSVs. Requires Python 3.x with `pandas` and `matplotlib` ([TODO: add exact versions once pinned]).
-
+Requires Python 3.x with `pandas`, `numpy`, `matplotlib`, `seaborn`, `plotly`
+(and, for static Sankey PNG export, a working `kaleido` install --
+`pip install 'plotly[kaleido]'`; the HTML output does not need it).
