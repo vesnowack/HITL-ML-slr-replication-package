@@ -9,7 +9,7 @@ for each research question.
 ## What this package includes
 
 - Raw search results per venue
-- The full list of the 50 primary studies included in the review
+- The full list of the 48 primary studies included in the review
 - Extracted/coded data used to answer each RQ
 - Source data and scripts for the tables and figures in the paper
 
@@ -40,7 +40,7 @@ for each research question.
     generate-figures.py             regenerates ../figures/article_numbers.png, ../figures/article_distribution.png
     generate-sankey.py              regenerates ../figures/sankey_rq_combinations_reproduction.png
 
-/primary-studies.csv            full list of the 50 included studies
+/primary-studies.csv            full list of the 48 included studies
                                  (citation key, title, authors, year, venue, link, source: automated search(AS)/snowballing(SB))
 
 README.md                       this file
@@ -110,13 +110,13 @@ per-venue counts are in `search-results/` and `figures/venue-table-source.csv`.
 |---|---:|
 | Articles initially screened across all venues | 14,832 |
 | Full-text reviewed | 1,306 |
-| Included via automated search (AS) | 46 |
+| Included via automated search (AS) | 44 |
 | Included via snowball search (SB) | 4 |
 | &nbsp;&nbsp;-- backward snowball | 2 |
 | &nbsp;&nbsp;-- forward snowball | 2 |
-| **Total primary studies** | **50** |
+| **Total primary studies** | **48** |
 
-The full list of 50 primary studies, with citation details and link, is in
+The full list of 48 primary studies, with citation details and link, is in
 `primary-studies.csv`.
 
 ## Quality assessment

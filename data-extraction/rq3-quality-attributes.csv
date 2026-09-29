@@ -5,7 +5,6 @@ Amalfitano2019Combining,Combining Automated GUI Exploration of Android apps with
 Arora2019,An Active Learning Approach for Improving the Accuracy of Automated Domain Model Extraction,adaptability
 Cardozo2023Auto-COP,Auto-COP: Adaptation generation in Context-oriented Programming using Reinforcement Learning options,"adaptability, effectiveness, efficiency"
 Chen2019,Continuous Incident Triage for Large-Scale Online Service Systems,"efficiency, effectiveness"
-Chen2020Incidents,How Incidental are the Incidents? Characterizing and Prioritizing Incidents for Large-Scale Online Service Systems,"efficiency, effectiveness"
 Chen2021Interactive,Interactive Cross-language Code Retrieval with Auto-Encoders,efficiency
 Duan2023AFAlog,AFALog: A General Augmentation Framework for Log-based Anomaly Detection with Active Learning,effectiveness
 Duan2025LogAction,LogAction: Consistent Cross-system Anomaly Detection through Logs via Active Domain Adaptation,"efficiency, effectiveness"
@@ -14,7 +13,6 @@ Geethal2023Human,Human-in-the-Loop Automatic Program Repair,effectiveness
 Gheibi2022Lifelong,Lifelong Self-Adaptation: Self-Adaptation Meets Lifelong Machine Learning,"effectiveness, adaptability"
 Gu2025ADAMAS,ADAMAS: Adaptive Domain-Aware Performance Anomaly Detection in Cloud Service Systems,effectiveness
 Jambigi2022Automatic,Automatic Error Classification and Root Cause Determination while Replaying Recorded Workload Data at SAP HANA,
-Jiang2020,How to Mitigate the Incident? An Effective Troubleshooting Guide Recommendation Technique for Online Service Systems,effectiveness
 Kang2022Active,Active Learning of Discriminative Subgraph Patterns for API Misuse Detection,effectiveness
 Kang2024Scaling,Scaling Code Pattern Inference with Interactive What-If Analysis,"effectiveness, efficiency, usability"
 Kapugama2022Human,Human-in-the-Loop Oracle Learning for Semantic Bugs in String Processing Programs,"effectiveness, explainability"

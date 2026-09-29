@@ -5,7 +5,6 @@ Amalfitano2019Combining,Combining Automated GUI Exploration of Android apps with
 Arora2019,An Active Learning Approach for Improving the Accuracy of Automated Domain Model Extraction,"accuracy, precision & recall, task success rate"
 Cardozo2023Auto-COP,Auto-COP: Adaptation generation in Context-oriented Programming using Reinforcement Learning options,task success rate
 Chen2019,Continuous Incident Triage for Large-Scale Online Service Systems,accuracy
-Chen2020Incidents,How Incidental are the Incidents? Characterizing and Prioritizing Incidents for Large-Scale Online Service Systems,"precision & recall, ROC/AUC, task success rate"
 Chen2021Interactive,Interactive Cross-language Code Retrieval with Auto-Encoders,"accuracy, task success rate"
 Duan2023AFAlog,AFALog: A General Augmentation Framework for Log-based Anomaly Detection with Active Learning,"precision&recall, f-measure, number of interaction"
 Duan2025LogAction,LogAction: Consistent Cross-system Anomaly Detection through Logs via Active Domain Adaptation,"precision&recall, f-measure"
@@ -14,7 +13,6 @@ Geethal2023Human,Human-in-the-Loop Automatic Program Repair,"accuracy, number of
 Gheibi2022Lifelong,Lifelong Self-Adaptation: Self-Adaptation Meets Lifelong Machine Learning,accuracy
 Gu2025ADAMAS,ADAMAS: Adaptive Domain-Aware Performance Anomaly Detection in Cloud Service Systems,"precision&recall, f-measure"
 Jambigi2022Automatic,Automatic Error Classification and Root Cause Determination while Replaying Recorded Workload Data at SAP HANA,"f-measure, accuracy"
-Jiang2020,How to Mitigate the Incident? An Effective Troubleshooting Guide Recommendation Technique for Online Service Systems,task success rate
 Kang2022Active,Active Learning of Discriminative Subgraph Patterns for API Misuse Detection,"precision&recall, f-measure"
 Kang2024Scaling,Scaling Code Pattern Inference with Interactive What-If Analysis,"task success rate, accuracy"
 Kapugama2022Human,Human-in-the-Loop Oracle Learning for Semantic Bugs in String Processing Programs,"precision&recall, accuracy"
