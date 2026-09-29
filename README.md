@@ -151,7 +151,7 @@ Extraction was organised per RQ:
 ```bash
 cd scripts
 python3 generate-figures.py             # ../figures/article_numbers.png, ../figures/article_distribution.png
-python3 generate-sankey.py              # ../figures/sankey_rq_combinations_reproduction.png/.html (reproduction -- see note above)
+python3 generate-sankey.py              # ../figures/sankey_rq_combinations_reproduction.png/.html
 ```
 
 Requires Python 3.x with `pandas`, `numpy`, `matplotlib`, `seaborn`, `plotly`
