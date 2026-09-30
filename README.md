@@ -1,8 +1,8 @@
-# Replication package: Understanding the "Human" in the Loop - A Systematic Literature Review in Software Engineering
+# Replication package for 'It Takes Two: A Software Engineering Perspective on Human-in-the-Loop Machine Learning'
 
 This package contains the data, search results, screening decisions, and
-extracted data supporting the paper *Understanding the "Human" in the Loop:
-A Systematic Literature Review in Software Engineering*. It allows a reader to
+extracted data supporting the paper *It Takes Two: A Software Engineering 
+Perspective on Human-in-the-Loop Machine Learning*. It allows a reader to
 inspect and reproduce the study selection process and the results reported
 for each research question.
 
