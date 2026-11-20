@@ -1,8 +1,8 @@
-# Replication package: Understanding the "Human" in the Loop - A Systematic Literature Review in Software Engineering
+# Replication package for 'It Takes Two: A Software Engineering Perspective on Human-in-the-Loop Machine Learning'
 
 This package contains the data, search results, screening decisions, and
-extracted data supporting the paper *Understanding the "Human" in the Loop:
-A Systematic Literature Review in Software Engineering*. It allows a reader to
+extracted data supporting the paper *It Takes Two: A Software Engineering 
+Perspective on Human-in-the-Loop Machine Learning*. It allows a reader to
 inspect and reproduce the study selection process and the results reported
 for each research question.
 
@@ -151,7 +151,7 @@ Extraction was organised per RQ:
 ```bash
 cd scripts
 python3 generate-figures.py             # ../figures/article_numbers.png, ../figures/article_distribution.png
-python3 generate-sankey.py              # ../figures/sankey_rq_combinations_reproduction.png/.html (reproduction -- see note above)
+python3 generate-sankey.py              # ../figures/sankey_rq_combinations.png
 ```
 
 Requires Python 3.x with `pandas`, `numpy`, `matplotlib`, `seaborn`, `plotly`
