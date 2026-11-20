@@ -1,47 +1,47 @@
 citation_key,title,action
-Alizadeh2018,Reducing Interactive Refactoring Effort via Clustering-Based Multi-objective Search,"verification & correction, implicit feedback"
-Alrajeh2020,Adapting Requirements Models to Varying Environments,"classification, verification & correction, augmenting"
+Alizadeh2018,Reducing Interactive Refactoring Effort via Clustering-Based Multi-objective Search,"output/artefact appraisal, implicit feedback"
+Alrajeh2020,Adapting Requirements Models to Varying Environments,"classification, output/artefact appraisal, augmenting"
 Amalfitano2019Combining,Combining Automated GUI Exploration of Android apps with Capture and Replay through Machine Learning,implicit feedback
-Arora2019,An Active Learning Approach for Improving the Accuracy of Automated Domain Model Extraction,"classification, solicited feedback"
+Arora2019,An Active Learning Approach for Improving the Accuracy of Automated Domain Model Extraction,"classification, solicited feedback, output/artefact appraisal"
 Cardozo2023Auto-COP,Auto-COP: Adaptation generation in Context-oriented Programming using Reinforcement Learning options,implicit feedback
 Chen2019,Continuous Incident Triage for Large-Scale Online Service Systems,implicit feedback
-Chen2021Interactive,Interactive Cross-language Code Retrieval with Auto-Encoders,verification & correction
+Chen2021Interactive,Interactive Cross-language Code Retrieval with Auto-Encoders,output/artefact appraisal
 Duan2023AFAlog,AFALog: A General Augmentation Framework for Log-based Anomaly Detection with Active Learning,classification
 Duan2025LogAction,LogAction: Consistent Cross-system Anomaly Detection through Logs via Active Domain Adaptation,classification
 Ge2022Locality,Locality-based security bug report identification via active learning,classification
 Geethal2023Human,Human-in-the-Loop Automatic Program Repair,classification
 Gheibi2022Lifelong,Lifelong Self-Adaptation: Self-Adaptation Meets Lifelong Machine Learning,classification
-Gu2025ADAMAS,ADAMAS: Adaptive Domain-Aware Performance Anomaly Detection in Cloud Service Systems,verification&correction
-Jambigi2022Automatic,Automatic Error Classification and Root Cause Determination while Replaying Recorded Workload Data at SAP HANA,"verification&correction, classification"
+Gu2025ADAMAS,ADAMAS: Adaptive Domain-Aware Performance Anomaly Detection in Cloud Service Systems,output/artefact appraisal
+Jambigi2022Automatic,Automatic Error Classification and Root Cause Determination while Replaying Recorded Workload Data at SAP HANA,"output/artefact appraisal, classification"
 Kang2022Active,Active Learning of Discriminative Subgraph Patterns for API Misuse Detection,classification
-Kang2024Scaling,Scaling Code Pattern Inference with Interactive What-If Analysis,solicited feedback
+Kang2024Scaling,Scaling Code Pattern Inference with Interactive What-If Analysis,"solicited feedback, model/behaviour appraisal"
 Kapugama2022Human,Human-in-the-Loop Oracle Learning for Semantic Bugs in String Processing Programs,classification
-Kim2022Learning,Learning probabilistic models for static analysis alarms,"classification, verification & correction, augmenting"
-Knauss2016ACon,ACon: A learning-based approach to deal with uncertainty in contextual requirements at runtime,verification&correction
-Li2022Actionable,Actionable and Interpretable Fault Localization for Recurring Failures in Online Service Systems,solicited feedback
-Li2023Preference,Preference Adaptation: user satisfaction is all you need!,solicited feedback
+Kim2022Learning,Learning probabilistic models for static analysis alarms,"classification, output/artefact appraisal, augmenting"
+Knauss2016ACon,ACon: A learning-based approach to deal with uncertainty in contextual requirements at runtime,output/artefact appraisal
+Li2022Actionable,Actionable and Interpretable Fault Localization for Recurring Failures in Online Service Systems,"solicited feedback, output/artefact appraisal"
+Li2023Preference,Preference Adaptation: user satisfaction is all you need!,"solicited feedback, model/behaviour appraisal"
 Liu2021CloneDetection,Can Neural Clone Detection Generalize to Unseen Functionalities,classification
-Liu2023Incident,Incident-aware duplicate ticket aggregation for cloud systems,"classification, verification&correction"
+Liu2023Incident,Incident-aware duplicate ticket aggregation for cloud systems,"classification, output/artefact appraisal"
 Liu2023Valar,VALAR: Streamlining Alarm Ranking in Static Analysis with Value-Flow Assisted Active Learning,classification
-Liu2024hmCodeTrans,hmCodeTrans: Human–Machine Interactive Code Translation,verification&correction
+Liu2024hmCodeTrans,hmCodeTrans: Human–Machine Interactive Code Translation,output/artefact appraisal
 Lloyd2017,Improving Human-in-the-Loop Adaptive Systems Using Brain-Computer Interaction,classification
-Mangal2015AUser,A user-guided approach to program analysis,"classification, verification & correction, augmenting"
+Mangal2015AUser,A user-guided approach to program analysis,"classification, output/artefact appraisal, augmenting"
 Murukannaiah2015,Platys: An Active Learning Framework for Place-Aware Application Development and Its Evaluation,classification
 Paterson2019,Using Unstructured Data to Improve the Continuous Planning of Critical Processes Involving Humans,implicit feedback
 Piskachev2019Codebase,Codebase-Adaptive Detection of Security-Relevant Methods,classification
-Radhakrishna2018,DroidStar: Callback Typestates for Android Classes,"solicited feedback, augmenting"
+Radhakrishna2018,DroidStar: Callback Typestates for Android Classes,"solicited feedback, augmenting, model/behaviour appraisal"
 Song2023APractical,A Practical Human Labeling Method for Online Just-in-Time Software Defect Prediction,classification
 Sun2025Interpretable,Interpretable Failure Localization for Microservice Systems Based on Graph Autoencoder,classification
 Tu2022Better,Better Data Labelling With EMBLEM (and how that Impacts Defect Prediction),classification
 Wang2016,Local-based active classification of test report to assist crowdsourced testing,classification
 Wei2021,Test Selection for Deep Learning Systems,classification
-Wu2021Improving,Improving high-impact bug report prediction with combination of interactive machine learning and active learning,"classification, verification&correction"
+Wu2021Improving,Improving high-impact bug report prediction with combination of interactive machine learning and active learning,"classification, output/artefact appraisal"
 Xiao2024LogCAE,LogCAE: An Approach for Log-based Anomaly Detection with Active Learning and Contrastive Learning,classification
 Xu2018Cross,Cross-version defect prediction via hybrid active learning with kernel principal component analysis,classification
-Yang2023DeepDebugger,DeepDebugger: An Interactive Time-Travelling Debugging Approach for Deep Classifiers,verification&correction
-Yang2023EvaCRC,EvaCRC: Evaluating Code Review Comments,verification&correction
-Yin2023Dynamic,Dynamic Data Fault Localization for Deep Neural Networks,verification&correction
-Yin2024Datactive,Datactive: Data Fault Localization for Object Detection Systems,verification&correction
+Yang2023DeepDebugger,DeepDebugger: An Interactive Time-Travelling Debugging Approach for Deep Classifiers,output/artefact appraisal
+Yang2023EvaCRC,EvaCRC: Evaluating Code Review Comments,output/artefact appraisal
+Yin2023Dynamic,Dynamic Data Fault Localization for Deep Neural Networks,output/artefact appraisal
+Yin2024Datactive,Datactive: Data Fault Localization for Object Detection Systems,output/artefact appraisal
 Yu2021,Improving Vulnerability Inspection Efficiency Using Active Learning,classification
 Yu2022Identifying,Identifying Self-Admitted Technical Debts With Jitterbug: A Two-Step Approach,classification
 Zhang2024LabelEase,LabelEase: A Semi-Automatic Tool for Efficient and Accurate Trace Labeling in Microservices,classification
